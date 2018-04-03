@@ -1,0 +1,8 @@
+applications:
+- path: target/GSSOManager.war
+  memory: 155M
+  instances: 1
+  buildpack: java_buildpack
+  name: gssomanager
+  host: gssomanager
+  
