@@ -334,7 +334,7 @@ else if("Manage Tenant".equalsIgnoreCase(actionName))
 					System.out.println("Google  Redirect URL ....:"+redirectURL);
 					
 							   response.sendRedirect(oauthUrl.toString());
-					System.out.println("GOOGLE CALLS SUCCESS....");
+					System.out.println("GOOGLE CALLS SUCCESS...:");
 				}
 				
 			}
